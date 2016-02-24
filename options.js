@@ -21,9 +21,9 @@ function load_setting() {
 		'password',
 		'is_auto_submit'
 	], function (aStore) {
-		document.getElementById("form_user").value = aStore.user;
-		document.getElementById("form_password").value = aStore.password;
-		document.getElementById("form_auto_submit").checked = aStore.is_auto_submit;
+		document.getElementById("form_user").value = aStore.user || '';
+		document.getElementById("form_password").value = aStore.password || '';
+		document.getElementById("form_auto_submit").checked = aStore.is_auto_submit || false;
 	});
 }
 
