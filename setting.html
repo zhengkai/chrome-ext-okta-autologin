@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>okta Autologin (Unofficial)</title>
+<script src="options.js"></script>
+</head>
+<body>
+
+<style>
+h1 {
+	color: #008CBA;
+	font-family: sans;
+}
+
+p, input, button {
+	font-size: 1rem;
+}
+
+div {
+	margin: 0 auto;
+	padding: 1rem 0;
+	min-width: 20rem;
+	max-width: 60rem;
+}
+
+button {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+	padding: 0 0.5rem;
+	height: 2rem;
+}
+
+span {
+	padding-left: 2rem;
+	font-weight: bold;
+	color: green;
+}
+</style>
+
+<div>
+<h1>okta Autologin (Unofficial)</h1>
+
+<p>User</p>
+<p><input id="form_user" type="text" name="user" value="" /></p>
+<p>Password</p>
+<p><input id="form_password" type="password" name="password" value="" /></p>
+<p><label for="form_auto_submit"><input id="form_auto_submit" type="checkbox" name="auto_submit" value="" /> Auto Submit</label></p>
+<p><button id="form_save">Save</button> <span id="status"></span></p>
+</div>
+
+</body>
+</html>

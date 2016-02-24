@@ -1,0 +1,27 @@
+{
+	"name": "okta Autologin (Unofficial)",
+	"version": "1.0",
+	"description": "by Zheng Kai",
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"page_action" : {
+		"default_name": "okta Autologin",
+		"default_icon" : {
+			"19": "icon_19.png",
+			"38": "icon_38.png"
+		},
+		"default_popup": "setting.html"
+	},
+	"options_page": "setting.html",
+	"permissions": [
+		"storage",
+		"https://*.okta.com/*"
+	],
+	"manifest_version": 2
+}
