@@ -1,7 +1,7 @@
 {
 	"name": "okta Autologin (Unofficial)",
-	"version": "1.0",
-	"description": "by Zheng Kai",
+	"version": "1.0.3",
+	"description": "okta login page can't auto-fill account by Chrome password system,\nthis extension can help you auto-login any *.okta.com site",
 	"background": {
 		"scripts": [
 			"background.js"
